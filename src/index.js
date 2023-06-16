@@ -19,16 +19,7 @@ const notes = [
         content: 'Conditional Rendering',
         important: true
     },
-    {
-        id: 4,
-        content: 'Handling Events',
-        important: true
-    },
-    {
-        id: 5,
-        content: 'Props Vs State',
-        important: false
-    }
+    
 ];
 
 ReactDOM.createRoot(document.getElementById('root')).render(<App notes={ notes } />);
